@@ -1,0 +1,24 @@
+.card {
+    margin-top: 30px;
+}
+
+.buttons {
+    display: flex;
+}
+
+#amount {
+    margin-left: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form mat-form-field {
+    max-width: 300px;
+}
+
+button {
+    margin-right: 5px;
+}

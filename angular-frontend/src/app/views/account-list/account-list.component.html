@@ -1,0 +1,9 @@
+<mat-card class="card mat-elevation-z4">
+    <mat-card-title class="title">Contas Disponíveis</mat-card-title>
+    <mat-card-content> 
+        <ul>
+            <li *ngFor="let account of accounts">Usurio: {{account.username}} <br> Número da conta: {{account.account_number}} </li><br>
+        </ul>
+    </mat-card-content>
+    <a routerLink="" mat-button color="primary">Voltar</a>
+</mat-card>

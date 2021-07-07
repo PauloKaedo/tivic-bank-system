@@ -1,0 +1,18 @@
+<mat-card class="card mat-elevation-z4">
+    <mat-card-title class="title">Informe seus Dados</mat-card-title>
+
+    <form>
+        <mat-form-field appearance="outline">
+            <input matInput placeholder="Nome do Usuário" [(ngModel)]="account.username" name="username">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <input matInput placeholder="Senha"  [(ngModel)]="account.account_password" name="account_password">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <input matInput placeholder="Depósito Inicial" [(ngModel)]="account.initial_deposit" name="initial_deposit">
+        </mat-form-field>
+    </form>
+    <button (click)="createAccount()" mat-button color="primary">Criar Conta</button>
+    <a routerLink="" mat-button color="primary">Voltar</a>
+    
+</mat-card>

@@ -1,0 +1,19 @@
+.card {
+    margin-top: 30px;
+}
+.value {
+    font-size: 1.1rem;
+    color: green;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form mat-form-field {
+    max-width: 300px;
+}
+
+button {
+    margin-right: 5px;
+}
